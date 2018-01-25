@@ -41,7 +41,7 @@
     "plugins": {
       "cordova-plugin-ionic": {
         "APP_ID": "edce335d",
-        "CHANNEL_NAME": "Master",
+        "CHANNEL_NAME": "Production",
         "UPDATE_METHOD": "auto"
       }
     }
