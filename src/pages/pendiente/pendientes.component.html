@@ -29,7 +29,8 @@
 
         </ion-list>
 
-        <ion-item class="text-center" *ngIf="lista.items.length > 2 ">
+        <ion-item (click)="verDetalle( lista, i)"
+                  class="text-center" *ngIf="lista.items.length > 2 ">
           <ion-icon color="primary" ios="ios-arrow-dropdown" md="md-arrow-dropdown"></ion-icon>
         </ion-item>
 
