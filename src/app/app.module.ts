@@ -16,6 +16,7 @@ import { DetalleComponent } from '../pages/detalle/detalle.component';
 import { ListaDeseosService } from './services/lista-deseos.service';
 
 import { PlaceholderPipe } from './pipes/placeholder.pipe';
+import { PendientesPipe } from './pipes/pendientes.pipes';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PlaceholderPipe } from './pipes/placeholder.pipe';
     TerminadosComponent,
     AgregarComponent,
     PlaceholderPipe,
-    DetalleComponent
+    DetalleComponent,
+    PendientesPipe
   ],
   imports: [
     BrowserModule,
