@@ -6,7 +6,7 @@
 
 <ion-content padding>
 
-  <ion-grid>
+  <ion-grid *ngIf="( _listaDeseos.listas | pendientes:false ).length === 0">
     <ion-row>
       <ion-col class="text-center caja-vacia">
         <ion-icon class="icono-grande" ios="ios-sunny" md="md-sunny"></ion-icon>
